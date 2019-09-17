@@ -1,0 +1,29 @@
+taskID;employeeID;employeeName;team;role;experience
+TURK-372S;23379205;Patrik Oscarsson;SDP 3;Developer;2,650
+TURK-372S;23477119;Yves Gänssinger;SDP 3;Developer;0,350
+TURK-372S;23477128;Per-Ola Larsson;SDP 3;Developer;0,350
+TURK-372S;23477149;Cecilia Ritz;SDP 3;Developer;0,350
+TURK-372S;23493724;Agneta Toresson;SDP 3;Developer;0,002
+VOICE-407;23042077;Gunnar Eriksson;SDP 7;Developer;0,82
+VOICE-407;23310420;Robin Henriksson;SDP 7;Developer;3,76
+VOICE-407;23056592;Martin Bard;SDP 4;SP writer;10,00
+VOICE-407;23323137;Rickard Glader;SDP 4;Developer;0,65
+VOICE-407;23490351;Anders Karlberg;SDP 4;Developer;0,70
+VOICE-407;23042561;Maria Lindau Nordhammer;SDP 7;Design Lead;5,00
+VOICE-407;23132210;Kent Wennerlund;SDP 4;Developer;5,00
+VOICE-419;23042077;Gunnar Eriksson;SDP 7;Developer;0,97
+VOICE-419;23323137;Rickard Glader;SDP 4;Developer;0,79
+VOICE-419;23379995;Hans Karlinius;SDP 4;Developer;0,97
+VOICE-419;23490351;Anders Karlberg;SDP 4;Developer;0,86
+VOICE-436S;23133299;Niklas Olsson;SDP 5;Developer;10,00
+VOICE-436S;23379452;Mattias Davidsson;SDP 5;Developer;2,99
+VOICE-436S;23452702;Imran Haider Syed;SDP 5;Design lead;5,00
+VOICE-436S;23201109;Martin Olsson;SDP 5;Developer;5,00
+VOICE-436S;23248278;Lars Ollén;SDP 5;Developer;0,06
+VOICE-436S;23439045;Jenny Grettve;SDP 5;Developer;1,14
+VOICE-436S;23140116;Christian Darnell;SDP 5;Developer;5,00
+VOICE-436S;23524183;Witold Skomra;SDP 5;Developer;0,55
+VOICE-436S;23539527;Sumit Singhal;SDP 5;Developer;0,14
+VOICE-555S;23267468;Patryk Filipiak;SDP 1;Developer;5,00
+VOICE-555S;23133299;Niklas Olsson;SDP 1;Developer;10,00
+VOICE-562S;23133299;Niklas Olsson;SDP 1;Developers;10,00

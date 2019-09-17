@@ -1,0 +1,13 @@
+taskID;employeeID;employeeName;team;role;yearsExperience
+BHA-300;20065915;Conte Francesco;TEI;Developer;2,2
+BHA-300;23088103;Crocicchi Giovanni;TEI;Developer;1,54
+BHA-300;23173442;Antonuzi Roberto;TEI;Developer;5
+BHA-300;23257746;AVOLIO VINCENZO;TEI;Developer;5
+WATA-070;20065915;Conte Francesco;TEI;Developer;2,28
+WATA-070;23088103;Crocicchi Giovanni;TEI;Developer;1,53
+WATA-070;23173442;Antonuzi Roberto;TEI;Developer;5
+BHA-328T;23103635;Angelini Noemi;TEI;Developer;0,35
+BHA-328T;20065915;Conte Francesco;TEI;Developer;2,6
+BHA-328T;23088103;Crocicchi Giovanni;TEI;Developer;2
+BHA-328T;;Matteo Mauro;TEI;Developer;
+BHA-328T;20095492;Piermarini Giuseppe;TEI;Developer;1,28
