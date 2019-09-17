@@ -1,0 +1,164 @@
+taskID;employeeID;employeeName;team;role;experienceYears
+TURK-372I;23477969;Anjesh Kumar;EGI 1;Developer;0,03
+TURK-372I;23481147;Ashutosh Malik;EGI 2;Developer;0,03
+TURK-372I;23427308;Gaurav Kumar;EGI 2;Developer;0,03
+TURK-372I;23453687;Hemant Agarwal;EGI 1;Developer;0,03
+TURK-372I;23460099;Rahul Bawa;EGI 1;Developer;0,03
+TURK-372I;23459812;Rakesh Kumar;EGI 2;Developer;0,03
+TURK-372I;23453382;Shashi Shekhar Prashar;EGI 1;Design lead;0,03
+TURK-372I;23475641;Vikas Dewan;EGI 2;Developer;0,03
+TURK-372I;1;Transfer hours;;;0,03
+BHA-328I;23042827;Akash Gupta;EGI 3;Developer;0,13
+BHA-328I;23483074;Akhtar Hussain;EGI 3;Developer;0,14
+BHA-328I;23477969;Anjesh Kumar;EGI 1;Design lead;0,58
+BHA-328I;23518472;Arunda Verma;EGI 3;Developer;0,14
+BHA-328I;23481147;Ashutosh Malik;EGI 2;Developer;0,58
+BHA-328I;23291454;Atul Jain;EGI 3;Design lead;0,58
+BHA-328I;23427308;Gaurav Kumar;EGI 2;Developer;0,58
+BHA-328I;23453687;Hemant Agarwal;EGI 1;Developer;0,58
+BHA-328I;23493501;Jatin Chhabra;EGI 3;Developer;0,11
+BHA-328I;23499575;Keshav Dikshit;EGI 2;Developer;0,14
+BHA-328I;23513907;Neeraj Kumar;EGI 1;Developer;0,13
+BHA-328I;23477882;Pankaj Kumar;EGI 5;Design lead;0,58
+BHA-328I;23526375;Pavsi Saxena;EGI 8;Developer;0,02
+BHA-328I;23460099;Rahul Bawa;EGI 1;Developer;0,58
+BHA-328I;23459812;Rakesh Kumar;EGI 2;Design lead;0,58
+BHA-328I;23513019;Ravi Shekhar;EGI 3;Developer;0,58
+BHA-328I;23453382;Shashi Shekhar Prashar;EGI 1;Design lead;0,58
+BHA-328I;23529708;Sunil Kumar Shah;EGI 9;Developer;0,22
+BHA-328I;23165923;Tanveer Singh Thakar;EGI 2;Developer;0,58
+BHA-328I;23475641;Vikas Dewan;EGI 2;Developer;0,58
+TELSTRA-038;23481147;Ashutosh Malik;EGI 2;Developer;0,54
+TELSTRA-038;23291454;Atul Jain;EGI 3;Design lead;0,54
+TELSTRA-038;23427308;Gaurav Kumar;EGI 2;Developer;0,54
+TELSTRA-038;23499575;Keshav Dikshit;EGI 2;Developer;0,10
+TELSTRA-038;23459812;Rakesh Kumar;EGI 2;Developer;0,54
+TELSTRA-038;23165923;Tanveer Singh Thakar;EGI 2;Design lead;0,54
+TELSTRA-038;23475641;Vikas Dewan;EGI 2;Developer;0,54
+TELSTRA-038;1;Transfer hours;;;0,54
+TURK-362;23493501;Jatin Chhabra;EGI 8;Developer;0,24
+TURK-362;23513019;Ravi Shekhar;EGI 3;Developer;0,25
+IDEA-173;23518472;Arunda Verma;EGI 3;Developer;0,28
+IDEA-173;23481147;Ashutosh Malik;EGI 2;Developer;0,72
+IDEA-173;23291454;Atul Jain;EGI 3;Design Lead;0,72
+IDEA-173;23427308;Gaurav Kumar;EGI 2;Developer;0,72
+IDEA-173;1;Transfer hours;;;0,72
+TELSTRA-039;23477969;Anjesh Kumar;EGI 1;Developer;0,79
+TELSTRA-039;23499575;Keshav Dikshit;EGI 2;Developer;0,35
+TELSTRA-039;23460099;Rahul Bawa;EGI 1;Developer;0,79
+TELSTRA-039;23459812;Rakesh Kumar;EGI 2;Developer;0,79
+TELSTRA-039;23453382;Shashi Shekhar Prashar;EGI 1;Design lead;0,79
+TELSTRA-039;23165923;Tanveer Singh Thakar;EGI 2;Design lead;0,79
+VOICE-447I;23477969;Anjesh Kumar;EGI 1;Design Lead;0,91
+VOICE-447I;23453687;Hemant Agarwal;EGI 1;Developer;0,91
+VOICE-447I;23513907;Neeraj Kumar;EGI 1;Developer;0,47
+VOICE-447I;23477882;Pankaj Kumar;EGI 1;Developer;0,00
+VOICE-447I;23460099;Rahul Bawa;EGI 1;Developer;0,91
+VOICE-447I;23513019;Ravi Shekhar;EGI 2;Developer;0,91
+VOICE-447I;23529708;Sunil Kumar Shah;EGI 1;Developer;0,55
+WIND-206;23483074;Akhtar Hussain;EGI 8;Developer;0,45
+WIND-206;23518472;Arunda Verma;EGI 3;Developer;0,45
+WIND-206;23481147;Ashutosh Malik;EGI 3;Developer;0,89
+WIND-206;23291454;Atul Jain;EGI 3;Design lead;0,89
+WIND-206;23427308;Gaurav Kumar;EGI 3;Developer;0,89
+WIND-206;23526375;Pavsi Saxena;EGI 3;Developer;0,29
+WIND-206;23453382;Shashi Shekhar Prashar;EGI 2;Developer;0,89
+WIND-206;23165923;Tanveer Singh Thakar;EGI 2;Developer;0,89
+WIND-206;23475641;Vikas Dewan;EGI 3;Developer;0,89
+VOICE-454I;23300344;Ajay Kumar;EGI 9;Developer;0,14
+VOICE-454I;23543935;Bhoopendra Singh Dandotiya;EGI 9;Developer;0,00
+VOICE-454I;23526693;Deepti Bansal;EGI 9;Developer;0,31
+VOICE-454I;23529721;Kundan Kumar;EGI 8;Developer;0,06
+VOICE-454I;23470751;Rahul Tyagi;EGI 9;Developer;0,00
+VOICE-454I;23527006;Ronak Patel;EGI 9;Design lead;0,23
+VOICE-454I;23439440;Sumit Singhal;EGI 9;Developer;0,23
+VOICE-454I;23510885;Suresh Kumar Prajapati;EGI 8;Design lead;0,47
+TURK-394;23291454;Atul Jain;EGI 3;Design Lead;1,14
+TURK-394;23526375;Pavsi Saxena;EGI 3;Developer;0,54
+CHTT-036;23042827;Akash Gupta;EGI 2;Developer;0,63
+CHTT-036;23481147;Ashutosh Malik;EGI 3;Developer;1,07
+CHTT-036;23499575;Keshav Dikshit;EGI 2;Developer;0,63
+CHTT-036;23459812;Rakesh Kumar;EGI 6;Design Lead;1,07
+CHTT-036;23513019;Ravi Shekhar;EGI 2;Developer;0,62
+CHTT-036;23453382;Shashi Shekhar Prashar;EGI 2;Design Lead;1,07
+CHTT-036;23165923;Tanveer Singh Thakar;EGI 2;Developer;1,07
+CHTT-036;23475641;Vikas Dewan;EGI 3;Developer;1,07
+VOICE-438;23483074;Akhtar Hussain;EGI 8;Developer;0,63
+VOICE-438;23543935;Bhoopendra Singh Dandotiya;EGI 9;Developer;0,00
+VOICE-438;23530607;Gaurav Arora;EGI 8;Developer;0,30
+VOICE-438;23493501;Jatin Chhabra;EGI 8;Developer;0,61
+VOICE-438;23529721;Kundan Kumar;EGI 8;Developer;0,23
+VOICE-438;23526685;Manish Kumar Sinha;EGI 8;Developer;0,22
+VOICE-438;23532617;Nidhi Gupta;EGI 8;Developer;0,30
+VOICE-438;23470751;Rahul Tyagi;EGI 9;Developer;0,13
+VOICE-438;23527006;Ronak Patel;EGI 9;Design lead;0,38
+VOICE-438;23510885;Suresh Kumar Prajapati;EGI 8;Design lead;0,63
+IND-176;23518472;Arunda Verma;EGI 3;Developer;0,79
+IND-176;23481147;Ashutosh Malik;EGI 3;Developer;1,23
+IND-176;23291454;Atul Jain;EGI 3;Design Lead;1,23
+IND-176;23427308;Gaurav Kumar;EGI 3;Developer;1,23
+IND-176;23526375;Pavsi Saxena;EGI 3;Developer;0,63
+IND-176;23475641;Vikas Dewan;EGI 3;Developer;1,23
+VOICE-516;23300344;Ajay Kumar;EGI 9;Developer;0,62
+VOICE-516;23543935;Bhoopendra Singh Dandotiya;EGI 9;Developer;0,78
+VOICE-516;23526693;Deepti Bansal;EGI 9;Developer;0,78
+VOICE-516;23470751;Rahul Tyagi;EGI 9;Developer;0,45
+VOICE-516;23527006;Ronak Patel;EGI 9;Design lead;0,70
+CIN-296;23518472;Arunda Verma;EGI 11;Developer;1,03
+CIN-296;23481147;Ashutosh Malik;EGI 3;Developer;1,47
+CIN-296;23291454;Atul Jain;EGI 3;Design lead;1,47
+CIN-296;23427308;Gaurav Kumar;EGI 3;Developer;1,47
+CIN-296;23526375;Pavsi Saxena;EGI 3;Developer;0,87
+CIN-296;23475641;Vikas Dewan;EGI 3;Developer;1,47
+VOICE-526;23477969;Anjesh Kumar;EGI 1;Design lead;1,50
+VOICE-526;23453687;Hemant Agarwal;EGI 6;Developer;1,50
+VOICE-526;23529721;Kundan Kumar;EGI 1;Developer;0,60
+VOICE-526;23513907;Neeraj Kumar;EGI 1;Developer;1,04
+VOICE-526;23477882;Pankaj Kumar;EGI 4;Developer;1,13
+VOICE-526;23529708;Sunil Kumar Shah;EGI 1;Developer;1,13
+ZAINK-057;23483074;Akhtar Hussain;EGI 11;Developer;1,13
+ZAINK-057;23510579;Satyendra Kumar Paterya;EGI 11;Developer;0,17
+ZAINK-057;23526704;Vivek Agarwal;EGI 11;Desing lead;0,90
+VOICE-555I;23477969;Anjesh Kumar;EGI 1;Design lead;1,59
+CIN-300;23204377;Akhil Jain;EGI 3;Developer;1,13
+CIN-300;23483074;Akhtar Hussain;EGI 11;Developer;1,08
+CIN-300;23481147;Ashutosh Malik;EGI 3;Developer;1,64
+CIN-300;23291454;Atul Jain;EGI 3;Design lead;1,64
+CIN-300;23427308;Gaurav Kumar;EGI 3;Developer;1,64
+CIN-300;23526375;Pavsi Saxena;EGI 3;Developer;1,04
+CIN-300;n1;Consultants;;;0,00
+CIN-300;n2;Consultants;;;
+CIN-301;23483074;Akhtar Hussain;EGI 11;Developer;1,24
+CIN-301;23518472;Arunda Verma;EGI 11;Developer;1,24
+CIN-301;23504492;Madhup Kumar Asthana;EGI 11;Developer;0,08
+CIN-301;23510579;Satyendra Kumar Paterya;EGI 11;Developer;0,44
+CIN-301;23526704;Vivek Agarwal;EGI 11;Design lead;0,99
+CIN-301;n3;Consultants;;;0,02
+CIN-301;n4;Consultants;;;
+ZAINK-066I;23416488;Manu Rachit Gupta;EGI 8;Developer;0,00
+ZAINK-066I;23522258;Neeraj Kumar Gupta;EGI 8;Developer;0,01
+ZAINK-066I;23532617;Nidhi Gupta;EGI 8;Developer;0,81
+ZAINK-066I;23510885;Suresh Kumar Prajapati;EGI 8;Design lead;1,14
+VOICE-562I;23477969;Anjesh Kumar;EGI 1;Design lead;1,66
+VOICE-562I;23529721;Kundan Kumar;EGI 1;Developer;0,81
+VOICE-562I;23513907;Neeraj Kumar;EGI 1;Developer;1,22
+VOICE-562I;23483060;Rajnish Kamboj;EGI 1;Developer;0,28
+VOICE-562I;23529708;Sunil Kumar Shah;EGI 1;Developer;1,30
+FTML-066;23042827;Akash Gupta;EGI 2;Developer;1,27
+FTML-066;23513019;Ravi Shekhar;EGI 2;Developer;1,27
+FTML-066;23453382;Shashi Shekhar Prashar;EGI 2;Design lead;1,71
+FTML-066;n5;Consultants;;;0,05
+FTML-066;n6;Consultants;;;
+ZAINK-069;23042827;Akash Gupta;EGI 2;Developer;1,35
+ZAINK-069;23513019;Ravi Shekhar;EGI 2;Developer;1,35
+ZAINK-069;23453382;Shashi Shekhar Prashar;EGI 2;Design lead;1,79
+ZAINK-069;23165923;Tanveer Singh Thakar;EGI 2;Developer;1,79
+ZAINK-069;n7;Consultants;;;0,26
+ZAINK-069;n8;Consultants;;;
+ZAINK-069;n9;Consultants;;;
+VOICE-563;23477969;Anjesh Kumar;EGI 1;Design lead;1,79
+VOICE-563;23416488;Manu Rachit Gupta;EGI 8;Developer;0,14
+VOICE-563;23522258;Neeraj Kumar Gupta;EGI 8;Developer;0,95
+VOICE-563;23532617;Nidhi Gupta;EGI 8;Developer;1,02
+VOICE-563;23510885;Suresh Kumar Prajapati;EGI 8;Design lead;0,95
+VOICE-563;23582918;Vaibhav Singh Tomer;EGI 8;Developer;0,00
