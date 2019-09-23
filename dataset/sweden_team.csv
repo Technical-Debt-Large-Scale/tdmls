@@ -1,0 +1,29 @@
+taskID;employeeID;employeeName;team;role;experience
+TURK-372S;23379205;Developer-Sweden#0;SDP 3;Developer;2,650
+TURK-372S;23477119;Developer-Sweden#1;SDP 3;Developer;0,350
+TURK-372S;23477128;Developer-Sweden#2;SDP 3;Developer;0,350
+TURK-372S;23477149;Developer-Sweden#3;SDP 3;Developer;0,350
+TURK-372S;23493724;Developer-Sweden#4;SDP 3;Developer;0,002
+VOICE-407;23042077;Developer-Sweden#5;SDP 7;Developer;0,82
+VOICE-407;23310420;Developer-Sweden#6;SDP 7;Developer;3,76
+VOICE-407;23056592;Developer-Sweden#7;SDP 4;SP writer;10,00
+VOICE-407;23323137;Developer-Sweden#8;SDP 4;Developer;0,65
+VOICE-407;23490351;Developer-Sweden#9;SDP 4;Developer;0,70
+VOICE-407;23042561;Developer-Sweden#10;SDP 7;Design Lead;5,00
+VOICE-407;23132210;Developer-Sweden#11;SDP 4;Developer;5,00
+VOICE-419;23042077;Developer-Sweden#5;SDP 7;Developer;0,97
+VOICE-419;23323137;Developer-Sweden#8;SDP 4;Developer;0,79
+VOICE-419;23379995;Developer-Sweden#12;SDP 4;Developer;0,97
+VOICE-419;23490351;Developer-Sweden#9;SDP 4;Developer;0,86
+VOICE-436S;23133299;Developer-Sweden#13;SDP 5;Developer;10,00
+VOICE-436S;23379452;Developer-Sweden#14;SDP 5;Developer;2,99
+VOICE-436S;23452702;Developer-Sweden#15;SDP 5;Design lead;5,00
+VOICE-436S;23201109;Developer-Sweden#16;SDP 5;Developer;5,00
+VOICE-436S;23248278;Developer-Sweden#17;SDP 5;Developer;0,06
+VOICE-436S;23439045;Developer-Sweden#18;SDP 5;Developer;1,14
+VOICE-436S;23140116;Developer-Sweden#19;SDP 5;Developer;5,00
+VOICE-436S;23524183;Developer-Sweden#20;SDP 5;Developer;0,55
+VOICE-436S;23539527;Developer-Sweden#21;SDP 5;Developer;0,14
+VOICE-555S;23267468;Developer-Sweden#22;SDP 1;Developer;5,00
+VOICE-555S;23133299;Developer-Sweden#13;SDP 1;Developer;10,00
+VOICE-562S;23133299;Developer-Sweden#13;SDP 1;Developers;10,00
