@@ -1,0 +1,7 @@
+Perguntas:
+
+1. Quanto maior a Dívida Técnica maior a distância entre os times?
+
+2. Quanto mais experiente é o time, menor a Dívida Técnica?
+
+3. Quanto maior a complexidade da tarefa, maior a Dívida Técnica?
