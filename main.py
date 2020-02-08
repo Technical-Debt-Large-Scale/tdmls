@@ -43,8 +43,12 @@ df_indian_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/
 df_sweden_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/sweden_team.csv', sep=";")
 df_italy_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/italy_team.csv', sep=";")
 df_usa_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/usa_team.csv', sep=";")
-"""## Routines
 
+print('-------------------------------- DataFrames -------------------------------- ') 
+print('DataFrames: df_all_metrics, df_indian_team, df_sweden_team, df_italy_team, df_usa_team')
+print('---------------------------------------------------------------------------- ') 
+
+"""## Routines
 ### Imports
 """
 
@@ -53,6 +57,9 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 """### Functions"""
+
+def show_title(content): 
+  print('--------------------------------', content, '--------------------------------')   
 
 # Generate a new list with content in sequence
 def generate_list(content, size):
@@ -174,7 +181,7 @@ def delete_character(myDF, column, character):
 
 ### Original Metrics Table
 """
-
+show_title('df_all_metrics')
 df_all_metrics.head()
 
 """###Converting Data in Metrics Table"""
@@ -237,6 +244,7 @@ ax = sns.regplot(x="maturity", y="taskGlobalDistance", data=df_all_metrics)
 sns.lmplot(x='technicalDebt', y='taskGlobalDistance', data=df_all_metrics)
 
 # Basic correlogram
+show_title('Basic correlogram to df_all_metrics')
 sns.pairplot(df_all_metrics)
 plt.show()
 
@@ -258,7 +266,7 @@ df_indian_team['country'] = 'Indian'
 df_indian_team.info()
 
 """### Indian Team Table Complete"""
-
+show_title('df_indian_team')
 print_full(df_indian_team)
 
 """### Sweden Team Table"""
@@ -275,7 +283,7 @@ df_sweden_team['country'] = 'Sweden'
 df_sweden_team.info()
 
 """### Sweden Table Complete"""
-
+show_title('df_sweden_teamd')
 print_full(df_sweden_team)
 
 """### Italy Team Table"""
@@ -292,7 +300,7 @@ df_italy_team['country'] = 'Italy'
 df_italy_team.info()
 
 """### Italy table complete"""
-
+show_title('df_italy_team')
 print_full(df_italy_team)
 
 """### USA Team Table"""
@@ -309,7 +317,7 @@ df_usa_team['country'] = 'USA'
 df_usa_team.info()
 
 """### USA Table Complete"""
-
+show_title('df_usa_team')
 print_full(df_usa_team)
 
 """### All Team Concatenated"""
@@ -331,7 +339,7 @@ df_all_teams.reset_index(drop=True, inplace=True)
 """### All Team Table Concatenated Complete"""
 
 df_all_teams.describe()
-
+show_title('df_all_teams')
 print_full(df_all_teams)
 
 df_all_teams.team.unique()
@@ -339,6 +347,7 @@ df_all_teams.team.unique()
 df_all_teams.role.unique()
 
 # Show rows with content in Developer, Developers
+show_title('Role in [Developers]')
 print_full(df_all_teams.query("role in ['Developers']"))
 
 df_all_teams.iloc[df_all_teams.query("role in ['Developers']").index[0]].role = 'Developer'
@@ -360,7 +369,7 @@ df_all_teams.isnull().sum()
 
 ## Data Cleaning and Data Transformation
 """
-
+show_title('Data Cleaning and Data Transformation')
 # Rows with NaN content
 df_all_teams_NaN.index
 
@@ -371,7 +380,7 @@ df_all_teams_cleaned.head(10)
 """**Converting String Numeric field to float**"""
 
 df_all_teams_cleaned['experienceYears'] = df_all_teams_cleaned['experienceYears'].str.replace(',', '.').astype(float)
-
+show_title('df_all_teams_cleaned')
 print_full(df_all_teams_cleaned)
 
 df_all_teams_cleaned.info()
@@ -404,5 +413,6 @@ mean_experienceYears_by_country = df_all_teams_cleaned.groupby("country").mean()
 mean_experienceYears_by_country
 
 sns.boxplot(mean_experienceYears_by_country).set_title('Boxplot Mean Development Experience Year by Country')
-
+plt.show()
 sns.boxplot(x='country', y='experienceYears', data=df_all_teams_cleaned).set_title('Boxplot Development Experience Year by Country')
+plt.show()
