@@ -38,7 +38,7 @@ Remoto
 ###df_usa_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/usa_team.csv', sep=";")
 ### Local
 """
-df_all_metrics = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/Metrics-Tabela%201.csv', sep=";")
+df_all_metrics = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/Metrics-Tabela1.csv', sep=";")
 df_indian_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/indian_team.csv', sep=";")
 df_sweden_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/sweden_team.csv', sep=";")
 df_italy_team = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/italy_team.csv', sep=";")
