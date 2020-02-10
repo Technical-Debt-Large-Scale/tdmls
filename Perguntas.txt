@@ -5,3 +5,21 @@ Perguntas:
 2. Quanto mais experiente é o time, menor a Dívida Técnica?
 
 3. Quanto maior a complexidade da tarefa, maior a Dívida Técnica?
+
+Recomendações:
+
+1. tente fazer o computo do coeficiente correlação par a par usando os três métodos (pearson, kendall, spearman).
+
+2. O link https://machinelearningmastery.com/how-to-calculate-nonparametric-rank-correlation-in-python/, mostra como 
+você obter o coeficiente de correção e o p-value associado dada as duas amostras de dados comparação on quer-se avaliar a 
+correlação entre elas. No link também mostra a interpretação para o coeficiente de correlação...
+
+3. Se a análise linear não de em nada, você pode analisar usando árvore de decisão.
+
+Resultados : 
+
+Segue resultado da análise dos após o uso do Coeficiente de Spearman
+LeadTime e TD OK
+ComplexityPoints e TD OK
+Maturity e TD (Não se pode afirmar)
+TaskGlobalDistance (Não se pode afirmar)
