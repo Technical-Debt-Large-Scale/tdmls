@@ -7,7 +7,8 @@ Data analysis available on https://colab.research.google.com/drive/1fYD8SwzXCEbS
 
 ### 1. Faça o clone do repositório
 
-### 2. $jupyter notebook
+### 2. Execute o notebook 
+$jupyter notebook
 
 ### 3. Navegue entre os notebooks já criados
 

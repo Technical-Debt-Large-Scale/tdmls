@@ -177,6 +177,13 @@ def delete_character(myDF, column, character):
     print("Error: " + str(e))
   return myDF
 
+def convert_int_to_string(myDF, column):
+  try:
+    myDF[column] = myDF[column].astype(str)
+  except Exception as e:
+    print("Error: " + str(e))
+  return myDF
+
 """## Tables
 
 ### Original Metrics Table
