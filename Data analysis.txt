@@ -1,0 +1,34 @@
+Dataset Tabela de Métricas obtida em (Software Architects in Large-Scale Distributed Project - An Ericson Case Study Brito et all. 2016)
+
+Sample of Metrics Table
+
+Statistics from Metrics Table
+
+Correlation Matrix
+
+The most common correlation coefficient is the Pearson correlation, that use p or r, measuring the degree of correlation, which is 
+sensitive only to a linear relationship between two variables, however it was chosen Spearman's rank correlation that have been developed 
+to be more robust than Pearson's, that is, more sensitive to nonlinear relationships, because TD does not follow a Normal Distribution. 
+
+To calculate Spearman's Correlation (coefficient and p) it was used the scipy[REF] library from Python.
+
+
+
+A. Checking unusual points
+
+B. Data normalization
+
+C. Conduct hierarchical multiple
+
+Template formula of final regression model for this analysis: 
+
+y =  B0 + B1x1 + B2x2 + B3x3 + B4.x4
+
+D. Testing linearity
+
+E. Testing independence
+
+F. Testing homoscedasticity
+
+G. Testing normality (Distribuição Normal)
+
