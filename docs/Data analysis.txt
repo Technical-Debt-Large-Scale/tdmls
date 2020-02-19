@@ -1,0 +1,83 @@
+A. Como o Dataset foi gerado?
+
+Dataset Tabela de Métricas obtida em (Software Architects in Large-Scale Distributed Project - 
+An Ericson Case Study Brito et all. 2016)
+
+Sample of Metrics Table
+
+B. Estatísticas geradas a partir do Dataset
+
+Statistics from Metrics Table
+
+C. Métodos usados para fazer a análise estatística
+
+Correlation Matrix
+
+The most common correlation coefficient is the Pearson correlation, that use p or r, measuring the degree of correlation, which is 
+sensitive only to a linear relationship between two variables, however it was chosen Spearman's rank correlation that have been developed 
+to be more robust than Pearson's, that is, more sensitive to nonlinear relationships, because TD does not follow a Normal Distribution. 
+
+To calculate Spearman's Correlation (coefficient and p) it was used the scipy[REF] library from Python.
+
+1) Normality tests - To check for the normality of the Data
+
+2) Wilcoxon singed-rank test - To test if the difference between the two estimates is statistically significant
+
+3) Kruskal-Wallis test - To test if the difference in estimation accuracy of four PC sizes is statistically significant
+
+4) Mann-Whitney test - To test if the difference in estimation accuracy of PCs of high and normal priority is statistically significant
+
+5) Cliff's delta - To measure effect size
+
+6) Durbir-Watson test - To check for the independence of residuals (regression assumption)
+
+7) Breuch-Pagan and Koenker tests - To check for the constant variace in residuals (regression assupmtion)
+https://medium.com/@remycanario17/tests-for-heteroskedasticity-in-python-208a0fdb04ab
+
+8) Cook's distance - To perform outliers diganostics in regression analysis.
+
+D. Methodologia e Técnicas
+
+D.A. Checking unusual points (OK)
+
+It was removed data about Tourkey Site because there is no significant and there is impact in analysis.
+
+D.B. Data normalization (OK)
+
+It was applied the min_max_scaler technique using Scikit Learn library from Python to normalize the main Dataset. [REF]
+
+D.C. Conduct hierarchical multiple
+
+These data of each variable were inputted into Scikit Learn library from Python and the template formula of final regression model for this analysis is given 
+as below:
+y =  B0 + B1x1 + B2x2 + B3x3 + B4.x4
+The independent variables were divided into four groups 
+(group1: lead time, group2: task complexity, group3: total developers, group4: task scaling). Each regression model is a different combination of 
+independent variables to be used for one multiple regression. In the beginning, the independent variable in the first group was entered into the regression model. 
+Then a second multiple regression was done with a new group of independent variable together with the independent variable(s) in the previous step. 
+This process was iterated until all the remaining independent variables were entered into the regression model.
+
+D.D. Testing linearity
+
+The partial regression plots are used to check the linear relationship between dependent variable and each independent variable[38]. 
+Visually, from these regression plots in Figure 3.3 [TBD] lead time, task complexity, total developers, task scalingshows a significant linear relationship
+ with technical debt. Maturity and Global Distance did not presented relationship with technical debt.
+
+D.E. Testing independence
+
+It is assumed that observations between and within groups are independent. Independence of residuals was checked by analyzing Durbin-Watson statistics. 
+If the value of Durbin-Watson test is between 1.5 and 2.5, there is no linear autocorrelation in the data[35]. 
+The Durbin-Watson value in our test is x.yzw (seeing Table 3.2) [TBD], which is acceptable. So, there is independence of residuals in our data.
+
+D.F. Testing homoscedasticity
+
+The assumption of homoscedasticity is that the residuals are equal for all values of the predicted dependent variable.
+ To check for heteroscedasticity, we Durbin-Watson test y.zxw conducted the Breusch-Pagan and the Koenker test[39]. 
+ The results of the tests are shown in Table 3.3. [TBD] As we can see, the sig-value of both tests are not less than 0.05. 
+ So, we cannot reject the null hypothesis (heteroskedasticity not present), which means that the assumption of homoscedasticity has been met.
+
+D.G. Testing normality (Distribuição Normal)
+
+The normal distribution of residuals is tested by visually checking the normal P-P plot[35].
+ In Figure 3.4 [TBD], the points on the plot remain close to the diagonal line, which means residuals are normally distributed. 
+ So, we do not violate the assumption of normality.

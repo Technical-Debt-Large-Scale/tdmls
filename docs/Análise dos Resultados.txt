@@ -1,0 +1,37 @@
+3. Methodology
+
+Refazer a seção 3.4 Data Analysis....
+
+4. Results
+
+RQ1) How TD is managed in Large-Scale Globaly Distributed Project?
+RQ2) What factors are related to TD accumulation in Large-Scale Globaly Distributed Project?
+
+4.1. Answer the RQ1
+
+4.1.2 TDM activity (8 activities)
+TD Prevention
+TD Identification
+TD Measurement
+TD Documentation
+TD Communitcation
+TD Priorization
+TD Monitoring
+TD Repayment
+
+4.2. Answer the RQ2
+
+4.2.1 Relationship between factors and TD
+
+There are 4 factors that have correlation with Technical Debt, thus it was created 4 regression models. These 4 model can be used to predict TD
+
+Model1 (TD and LeadTime (x1))
+
+Model2 (TD and features (Lead Time (x1), Task Complexity (x2)))
+
+Model3 (TD and features (Lead Time (x1), Task Complexity (x2), Total Developers(x3)))
+
+Model4 (TD and features (Lead Time (x1), Task Complexity (x2), Total Developers(x3) and TaskScaling(x4)))
+
+A análise estatística de regressão fez com que as variáveis Global Distance e Maturity fossem descartadas dos modelos de regressão 
+por que elas não ficaram correlacionadas com Dívida Técnica.

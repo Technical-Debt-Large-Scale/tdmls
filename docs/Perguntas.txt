@@ -1,0 +1,39 @@
+A) Perguntas:
+
+1. Quanto maior a Dívida Técnica maior a distância entre os times?
+Não se pode afimar, pois os testes de regressão, via Spearman's Coeficiente, mostraram que essa variável não correlaciona com TD.
+
+2. Quanto mais experiente é o time, menor a Dívida Técnica?
+Não se pode afirmar, pois pelo coeficiente de Spearman (-0.134696) a feature Maturity não tem correlação com a TD 
+avaliada na matriz de métricas analisada.
+
+3. Quanto maior a complexidade da tarefa, maior a Dívida Técnica?
+Sim, pois pelo coeficiente de Spearman () a feature ComplexityPoints tem correlação com a TD 
+avaliada na matriz de métricas analisada.
+
+4. Quanto maior o LeadTime maior a Dívida Técnica?
+Sim, pois pelo coeficiente de Spearman () a feature ComplexityPoints tem correlação com a TD 
+avaliada na matriz de métricas analisada.
+
+5. Quanto maior a quantidade de Developers envolvidos no projeto maior a Dívida Técnica?
+Sim, pois pelo coeficiente de Spearman () a feature ComplexityPoints tem correlação com a TD 
+avaliada na matriz de métricas analisada.
+
+B) Recomendações:
+
+1. tente fazer o computo do coeficiente correlação par a par usando os três métodos (pearson, kendall, spearman). OK
+
+2. O link https://machinelearningmastery.com/how-to-calculate-nonparametric-rank-correlation-in-python/, mostra como 
+você obter o coeficiente de correção e o p-value associado dada as duas amostras de dados comparação on quer-se avaliar a 
+correlação entre elas. No link também mostra a interpretação para o coeficiente de correlação. OK
+
+3. Se a análise linear não de em nada, você pode analisar usando árvore de decisão. 
+
+4. Segue resultado da análise dos após o uso do Coeficiente de Spearman
+
+LeadTime e TD OK
+ComplexityPoints e TD OK
+TotalDevelopers e TD OK
+TaskScaling e TD OK
+Maturity e TD (Não se pode afirmar)
+TaskGlobalDistance (Não se pode afirmar)
