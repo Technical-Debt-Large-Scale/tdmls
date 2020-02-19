@@ -1,15 +1,15 @@
-A. Como o Dataset foi gerado?
+--- A. Como o Dataset foi gerado? ---
 
 Dataset Tabela de Métricas obtida em (Software Architects in Large-Scale Distributed Project - 
 An Ericson Case Study Brito et all. 2016)
 
 Sample of Metrics Table
 
-B. Estatísticas geradas a partir do Dataset
+--- B. Estatísticas geradas a partir do Dataset ---
 
 Statistics from Metrics Table
 
-C. Métodos usados para fazer a análise estatística
+--- C. Métodos usados para fazer a análise estatística ---
 
 Correlation Matrix
 
@@ -19,24 +19,70 @@ to be more robust than Pearson's, that is, more sensitive to nonlinear relations
 
 To calculate Spearman's Correlation (coefficient and p) it was used the scipy[REF] library from Python.
 
+y - Technical Debt (variável dependente)
+x1 - LeadTime (feature1)
+x2 - Task Complexity (feature2)
+x3 - Total Developers (feature3)
+x4 - TaskScaling (feature4)
+
 1) Normality tests - To check for the normality of the Data
+Pela análise gráfica usando a construção de histogramas (boxplot do searbon do python), nenhum dos dados analisados (y, x1, x2, x3 e x4) segue a distribuição normal. 
 
 2) Wilcoxon singed-rank test - To test if the difference between the two estimates is statistically significant
+i) LeadTime (x1) and Technical Debt
+ii) Task Complexity (x2) and Technical Debt
+iii) Total Developers(x3) and Technical Debt
+iv) TaskScaling(x4) and Technical Debt
+
+leadTime
+Statistics=119.000, p=0.007
+Different distribution (reject H0)
+(119.0, 0.007)
+---
+complexityPoints
+Statistics=114.000, p=0.005
+Different distribution (reject H0)
+(114.0, 0.005)
+---
+totalDevelopers
+Statistics=229.000, p=0.710
+Same distribution (fail to reject H0)
+(229.0, 0.71)
+---
+taskScaling
+Statistics=197.000, p=0.210
+Same distribution (fail to reject H0)
+(197.0, 0.21)
+---
 
 3) Kruskal-Wallis test - To test if the difference in estimation accuracy of four PC sizes is statistically significant
+? 
 
 4) Mann-Whitney test - To test if the difference in estimation accuracy of PCs of high and normal priority is statistically significant
+?
 
 5) Cliff's delta - To measure effect size
+?
 
 6) Durbir-Watson test - To check for the independence of residuals (regression assumption)
+i) LeadTime (x1) and Technical Debt
+ii) Task Complexity (x2) and Technical Debt
+iii) Total Developers(x3) and Technical Debt
+iv) TaskScaling(x4) and Technical Debt
+
+dw of leadTime is 1.614
+dw of complexityPoints is 2.155
+dw of totalDevelopers is 1.23
+dw of taskScaling is 1.727
 
 7) Breuch-Pagan and Koenker tests - To check for the constant variace in residuals (regression assupmtion)
 https://medium.com/@remycanario17/tests-for-heteroskedasticity-in-python-208a0fdb04ab
+?
 
 8) Cook's distance - To perform outliers diganostics in regression analysis.
+?
 
-D. Methodologia e Técnicas
+--- D. Methodologia e Técnicas ---
 
 D.A. Checking unusual points (OK)
 
