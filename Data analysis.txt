@@ -12,11 +12,20 @@ to be more robust than Pearson's, that is, more sensitive to nonlinear relations
 
 To calculate Spearman's Correlation (coefficient and p) it was used the scipy[REF] library from Python.
 
+1) Normality tests - To check for the normality of the Data
+2) Wilcoxon singed-rank test - To test if the difference between the two estimates is statistically significant
+3) Kruskal-Wallis test - To test if the difference in estimation accuracy of four PC sizes is statistically significant
+4) Mann-Whitney test - To test if the difference in estimation accuracy of PCs of high and normal priority is statistically significant
+5) Cliff's delta - To measure effect size
+6) Durbir-Watson test - To check for the independence of residuals (regression assumption)
+7) Breuch-Pagan and Koenker tests - To check for the constant variace in residuals (regression assupmtion)
+https://medium.com/@remycanario17/tests-for-heteroskedasticity-in-python-208a0fdb04ab
 
+8) Cook's distance - To perform outliers diganostics in regression analysis.
 
 A. Checking unusual points
 
-B. Data normalization
+B. Data normalization (OK)
 
 C. Conduct hierarchical multiple
 
