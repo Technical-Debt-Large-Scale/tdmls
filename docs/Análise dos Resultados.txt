@@ -1,68 +1,68 @@
 3. Methodology
 
-3.4 Análise dos dados
+3.4 Data analysis
 
-Método de seleção
+Selection method
 
-Foi feita uma análise de correlação - modelo de regressão linear e Spearmans correlation coefficient - entre as possíveis features que podem impactar a 
-Dívida Técnica. Dado a Tabela de Métricas, foram escolhidas as seguintes features: 
-LeadTime, ComplexityPoints, TotalDevelopers, TaskScaling, Maturity e TaskGlobalDistance.
+A correlation analysis was performed - linear regression model and Spearmans correlation coefficient - between the possible characteristics that can impact a
+Technical Debt. Given in the Metrics Table, the following characteristics were chosen:
+LeadTime, ComplexityPoints, TotalDevelopers, TaskScaling, Maturity and TaskGlobalDistance.
 
-Processo
+Process
 
-Análise de Regressão linear
+Linear Regression Analysis
 
-This section presents the process of conducting hierarchical multiple regression analysis. It starts with detecting unusual points, and the unusual
- points are removed after discussion between us. 
+This section presents the process of performing multiple hierarchical regression analysis. It starts with the detection of unusual spots, and the unusual ones
+stitches are removed after discussion between us.
 
-We conduct a linear regression in (Scikit Learn). The linearity  and independence are tested. Finally report the results.
+We performed a linear regression in (Scikit Learn). Linearity and independence are tested. Finally, report the results.
 
-A. Checking unusual points
+A. Checking for unusual points
 
-There are three kinds of unusual points: outliers, high leverage points and highly influential points (REF 36). Foi gerado o box plot da variável dependente 
-Technical Debt para identificação de outliers. After discussion, only one unusual point was removed from the data set referente a um ponto de um site que 
-não agregaria a análise dos dados da tabela de métrica. 
+There are three types of unusual points: outliers, high leverage points and highly influential points (REF 36). Dependent variable box plotting or was created
+Technical debt for identifying outliers. After the discussion, only one unusual point was removed from the dataset for a point on a website that
+did not add an analysis of the metric table data.
 
-B. Conduct Linear Regression
+B. Perform linear regression
 
-These data of each variable were inputted into pandas[REF], scipy [REF] and scikit-learn[REF] and the template formula of
-final regression model for this analysis is given as below: Y= B0 + B1X1 + B2X2 + B3X3 + B4X4 + B5X5
+These data for each variable were entered in pandas [REF], scipy [REF] and scikit-learn [REF] and in the model formula of
+The final regression model for this analysis is shown below: Y = B0 + B1X1 + B2X2 + B3X3 + B4X4 + B5X5
 
-The independent variables were divided into five groups
- (group1: task complexity, group2: lead time, group3: global distance, group4: total developers, group5: maturity). 
- Each regression model is a different combination of independent variables to be used for one multiple regression. 
- In the beginning, the independent variable in the first group was entered into the regression model. 
- Then a second multiple regression was done with a new group of independent variable together with the independent variable(s) in the previous step. 
- This process was iterated until all the remaining independent variables were entered into the regression model.
+The independent variables were divided into four groups
+(group1: lead time, group2: task complexity, group3: total developers, group4: task scaling)
+Each regression model is a different combination of independent variables to be used for multiple regression.
+In the beginning, the independent variable in the first group was inserted in the regression model.
+Then, a second multiple regression was performed with a new group of independent variables, together with the independent variables in the previous step.
+This process was repeated until all other independent variables were included in the regression model.
 
-C. Testing linearity
-The partial regression plots are used to check the linear relationship between dependent variable and each independent variable[37]. 
-Visually, from these regression plots in Figure 3.3 [TBD], task complexity, leadTime, taskscaling and total developers shows a significant linear relationship
- with technical debt. Lead time shows some kind of linear relationship with technical debt.
+C. Test linearity
+Partial regression graphs are used to verify the linear relationship between the dependent variable and each independent variable [37].
+Visually, from these regression graphs in Figure 3.3 [TBD], leadTime, task complexity, total developers and task scale show a significant linear relationship
+with technical debt.
 
-F. Testing homoscedasticity (off)
+F. Testing homoscedasticity (disabled)
 
-dw of leadTime is 1.614
-dw of complexityPoints is 2.155
-dw of totalDevelopers is 1.23
-dw of taskScaling is 1.727
+leadTime dw is 1,614
+dw of complexityPoints is 2,155
+totalDevelopers dw is 1.23
+taskScaling's dw is 1,727
 
 Content analysis
 
-According to Elo and KyngÃďs40, content analysis is conducted through three phases which include preparing, organizing and reporting. 
-Each phase consists of several sub-activities. Based on the research questions, we divided the content analysis into two independent parts. 
-The first part deals with the text related to TDM and the second part deals with the text about the factors that have impacts on TD.
-In the first part, the analysis started with the definition of unit analysis. We treated each TDM activity as a recording unit. 
-Then, we made sense of the raw data and defined five coding categories: TDM activity, tools, methods, roles, and challenges. 
-Before coding the text, we coded a sample text to test the clarity and consistency of the category definitions, and got an intercoder agreement. 
-Next, we coded the whole text, totally eight TDM activities were identified. 
-The tools, methods, involved roles, and challenges associated with each TDM activity.
-After the above steps, we rechecked the coding consistency. 
-These five coding categories were suitable for coding our interview transcript, and all necessary data was labeled with corresponding categories. 
-Finally, we reported the analysis results.
+According to Elo and Kyngös40, content analysis is carried out in three phases, which include the preparation, organization and reporting.
+Each phase consists of several sub-activities. Based on the research questions, we divided the content analysis into two independent parts.
+The first part deals with the text related to TDM and the second part deals with the text about the factors that impact TDM.
+In the first part, the analysis started with the definition of unit analysis. We treat each TDM activity as a recording unit.
+So, we understand the raw data and define five categories of coding: TDM activity, tools, methods, functions and challenges.
+Before coding the text, we coded a sample text to test the clarity and consistency of the category definitions and we reached an agreement between the coders.
+Then, we coded the entire text, eight TDM activities were identified.
+The tools, methods, functions involved and challenges associated with each TDM activity.
+After the steps above, we again checked the consistency of the coding.
+These five coding categories were adequate to encode our interview transcript and all necessary data was labeled with the corresponding categories.
+Finally, we report the results of the analysis.
 
-The second part followed the same content analysis process except that the definition of unit analysis and categories are different.
-The unit of analysis is each factor that has impacts on TD and the categories were defined as factor and impact.
+The second part followed the same content analysis process, except that the definition of unit and category analysis is different.
+The unit of analysis is each factor that impacts TD and the categories were defined as factor and impact.
 
 4. Results
 
@@ -100,26 +100,25 @@ TaskGlobalDistance  TD                           0.034  0.855  NÃO
 
 Model (TD and features (Lead Time (x1), Task Complexity (x2), Total Developers(x3) and TaskScaling(x4)))
 
-                    parêmetros
-intercepto	        636.865782
-leadTime	        -0.099453
-complexityPoints	6.167178
-totalDevelopers	    55.799641
-taskScaling	        -2740.083686
+intercepto           894.67
+leadTime               1.93
+complexityPoints       5.48
+totalDevelopers       53.98
+taskScaling        -3298.65
 
- Interpretação dos Coeficientes Estimados
+Interpretation of Estimated Coefficients
 
-Intercepto → Excluindo o efeito das variáveis explicativas ($X_1=X_2=X_3=X_4=0$) o efeito médio na Dívida Técnica seria de 636,865 pontos.
+Intercept → Excluding the effect of the explanatory variables ($ X_1 = X_2 = X_3 = X_4 = 0 $) the average effect on the Technical Debt would be 894.67 points.
 
-leadTime → Mantendo-se os valores de $X_2$ (complexityPoints), $X_3$ (totalDevelopers) e $X_4$ (taskScaling) constantes, o acréscimo de 1 ponto na Dívida Técnica (TD) gera uma variação média no leadTime de -0,099.
+leadTime → Keeping the values ​​of $ X_2 $ (complexityPoints), $ X_3 $ (totalDevelopers) and $ X_4 $ (taskScaling) constant, the increase of 1 point in the Technical Debt (TD) generates an average variation in the leadTime of 1.93
 
-complexityPoints → Mantendo-se os valores de $X_1$ (leadTime), $X_3$ (totalDevelopers) e $X_4$ (taskScaling) constantes, o acréscimo de 1 ponto na Dívida Técnica (TD) gera uma variação média no complexityPoints de 6,167.
+complexityPoints → Keeping the values ​​of $ X_1 $ (leadTime), $ X_3 $ (totalDevelopers) and $ X_4 $ (taskScaling) constant, the addition of 1 point in Technical Debt (TD) generates an average variation in complexityPoints of 5.48
 
-totalDevelopers → Mantendo-se os valores de $X_1$ (leadTime), $X_2$ (complexityPoints) e $X_4$ (taskScaling) constantes, o acréscimo de 1 ponto na Dívida Técnica (TD) gera uma variação média no totalDevelopers de 55,799.
+totalDevelopers → Keeping the values ​​of $ X_1 $ (leadTime), $ X_2 $ (complexityPoints) and $ X_4 $ (taskScaling) constant, the increase of 1 point in the Technical Debt (TD) generates an average variation in totalDevelopers of 53.98.
 
-taskScaling → Mantendo-se os valores de $X_1$ (leadTime), $X_2$ (complexityPoints) e $X_3$ (totalDevelopers) constantes, o acréscimo de 1 ponto na Dívida Técnica (TD) gera uma variação média no taskScaling de -2740,08.
+taskScaling → Keeping the values ​​of $ X_1 $ (leadTime), $ X_2 $ (complexityPoints) and $ X_3 $ (totalDevelopers) constant, the increase of 1 point in the Technical Debt (TD) generates an average variation in the taskScaling of -3298.65
 
-Y = 636.866 + -0.099(leadTime) + 6.167(complexityPoints) + 55.8(totalDevelopers) + -2740.084(taskScaling)
+Y = 894,668 + 1,935 (leadTime) + 5,483 (complexityPoints) + 53,982 (totalDevelopers) + -3298,654 (taskScaling)
 
-A análise estatística de regressão fez com que as variáveis Global Distance e Maturity fossem descartadas dos modelos de regressão 
-por que elas não ficaram correlacionadas com Dívida Técnica.
+The statistical regression analysis caused the Global Distance and Maturity variables to be discarded from the regression models
+because, according to Spearman's coefficient analysis, they were not correlated with Technical Debt.
