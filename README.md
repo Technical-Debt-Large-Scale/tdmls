@@ -12,7 +12,8 @@ $jupyter notebook
 
 ### 3. Navegue entre os notebooks já criados
 
-- Análise da Tabela de Métricas.ipynb
+- Análise dos Fatores que Podem Impactar a Dívida Técnica
 - Análise da Tabela de Métricas-Normalizados.ipynb
+- Análise da Tabela de Métricas.ipynb
 - Analise das Tabelas dos Sites envolvidos.ipynb
 - Analise da Tabela Concatenada (Todos os times juntos).ipynb
