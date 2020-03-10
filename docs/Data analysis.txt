@@ -115,12 +115,21 @@ It is assumed that observations between and within groups are independent. Indep
 If the value of Durbin-Watson test is between 1.5 and 2.5, there is no linear autocorrelation in the data[35]. 
 The Durbin-Watson value in our test is x.yzw (seeing Table 3.2) [TBD], which is acceptable. So, there is independence of residuals in our data.
 
+dw of range=2.041158 technicalDebt
+dw of leadTime is 1.614
+dw of complexityPoints is 2.155
+dw of totalDevelopers is 1.23
+dw of taskScaling is 1.727
+
 D.F. Testing homoscedasticity
 
 The assumption of homoscedasticity is that the residuals are equal for all values of the predicted dependent variable.
  To check for heteroscedasticity, we Durbin-Watson test y.zxw conducted the Breusch-Pagan and the Koenker test[39]. 
  The results of the tests are shown in Table 3.3. [TBD] As we can see, the sig-value of both tests are not less than 0.05. 
  So, we cannot reject the null hypothesis (heteroskedasticity not present), which means that the assumption of homoscedasticity has been met.
+
+ Obs: In Python, there is a method het_breuschpagan in statsmodels.stats.diagnostic (the statsmodels package) for Breusch–Pagan test.[11]
+[11]  "statsmodels.stats.diagnostic.het_breuschpagan — statsmodels 0.8.0 documentation". www.statsmodels.org.
 
 D.G. Testing normality (Distribuição Normal)
 
