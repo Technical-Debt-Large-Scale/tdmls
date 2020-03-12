@@ -70,3 +70,25 @@ analysisHeaders = ['Característica', 'Dívida Técnica', 'Spearmans Coef', 'p',
 print(tabulate([LeadTimeRow, ComplexityPointsRow, TotalDevelopersRow, 
                 TaskScalingRow, MaturityRow, TaskGlobalDistanceRow],
                headers=analysisHeaders))
+
+pd.DataFrame(data=np.append(modelo.intercept_, modelo.coef_), index=my_coeficientes, columns=['parêmetros'])
+
+x = np.array([a, b, c])
+
+x2 = np.array([['a','b'], ['b','c'], ['d','e']])
+my_index = ['l1', 'l2', 'l3']
+my_columns = ['c1', c2]
+
+pd.DataFrame(data=x2, index=my_index, columns=my_columns)
+
+modelo_4_score = modelo_4.score(X4_train, y4_train).round(2)
+modelo_4_metrics_r2_score = metrics.r2_score(y4_test, y_previsto_4).round(2)
+
+modelo_3_score = modelo_3.score(X3_train, y3_train).round(2)
+modelo_3_metrics_r2_score = metrics.r2_score(y3_test, y_previsto_3).round(2)
+
+modelo_2_score = modelo_2.score(X2_train, y2_train).round(2)
+modelo_2_metrics_r2_score = metrics.r2_score(y2_test, y_previsto_2).round(2)
+
+modelo_1_score = modelo_1.score(X1_train, y1_train).round(2)
+modelo_1_metrics_r2_score = metrics.r2_score(y1_test, y_previsto_1).round(2)
