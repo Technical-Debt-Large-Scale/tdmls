@@ -37,20 +37,26 @@ The partial regression plots are used to check the linear relationship between d
 
 ### D. Testing independence
 
-It is assumed that observations between and within groups are independent. Independence of residuals was checked by analyzing Durbin-Watson statistics. If the value of Durbin-Watson test is between 1.5 and 2.5, there is no linear autocorrelation in the data \cite{ho2013handbook}. The Durbin-Watson values in our tests are detailed in   Table \ref{tab:durbin-watson}, which is acceptable. So, there is independence of residuals in our data.
+It is assumed that observations between and within groups are independent. Independence of residuals was checked by analyzing Durbin-Watson statistics. If the value of Durbin-Watson test is between 1.5 and 2.5, there is no linear autocorrelation in the data (Ho 2013). The Durbin-Watson values in our tests are detailed in   Table \ref{tab:durbin-watson}, which is acceptable. So, there is independence of residuals in our data.
 
 ### E. Testing normality
 
-The normal distribution of residuals is tested by visually checking the normal P-P plot \cite{ho2013handbook}. In Figure \ref{fig:ppplotTechnicalDebt}, the points on the plot remain close to the diagonal line, which means residuals are normally distributed. So, we do not violate the assumption of normality.
+The normal distribution of residuals is tested by visually checking the normal P-P plot (Ho 2013). In ![alt text][PPplot], the points on the plot remain close to the diagonal line, which means residuals are normally distributed. So, we do not violate the assumption of normality.
 
 
 ### F. Testing multicollinearity
 
-We used Tolerance/VIF values to check multicollinearity \cite{alin2010multicollinearity}. The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. As you can see in Table~\ref{tab:multicollinearity-tolerance}. In addition, the VIF should be less than 10. As we can see in Table~\ref{tab:multicollinearity-vif}, the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
-
-[TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TD-Boxplot.png "TD Bloxplot"
-[Regression]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/Regression.png "Regression partial plots of independent variables against TD"
+We used Tolerance/VIF values to check multicollinearity (Alin 2010). The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. As you can see in Table~\ref{tab:multicollinearity-tolerance}. In addition, the VIF should be less than 10. As we can see in Table~\ref{tab:multicollinearity-vif}, the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
 
 Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high leverage points, and outliers in linear regression. Statistical Science. 1986;:379–393.
 
 Fox John. Applied regression analysis and generalized linear models. Sage Publications; 2015.
+
+Ho Robert. Handbook of univariate and multivariate data analysis with IBM SPSS. Chapman and Hall/CRC; 2013.
+
+Alin Aylin. Multicollinearity. Wiley Interdisciplinary Reviews: Computational Statistics. 2010;2(3):370–374.
+
+
+[TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TD-Boxplot.png "TD Bloxplot"
+[Regression]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/Regression.png "Regression partial plots of independent variables against TD"
+[PPplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/PPplot.png
