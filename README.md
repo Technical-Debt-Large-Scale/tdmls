@@ -1,8 +1,10 @@
 # tdmls
-Technical Debt Management Large Scale Dataset 
+Appendix about Technical Debt Management in Large-Scale Distributed Projects: An Industrial Case Study
 
-Complete data analysis available on https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/Analysis%20of%20Factors%20That%20Can%20Impact%20Technical%20Debt.ipynb
+Questions were done to practioners
 
-Initial data analysis available on https://colab.research.google.com/drive/1fYD8SwzXCEbSN5PAjyX6NMz7Hi8Bbmuw
+TD Metrics DataSet
 
-Go to Analysis of Factors that can impact Technical Debt.ipynb
+Process about hierarquical regression analysis
+
+Complete data analysis available on https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/Analysis%20of%20Factors%20That%20Can%20Impact%20Technical%20Debt.ipynb or go to file Analysis of Factors that can impact Technical Debt.ipynb
