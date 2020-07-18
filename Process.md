@@ -49,4 +49,4 @@ The normal distribution of residuals is tested by visually checking the normal P
 
 We used Tolerance/VIF values to check multicollinearity \cite{alin2010multicollinearity}. The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. As you can see in Table~\ref{tab:multicollinearity-tolerance}. In addition, the VIF should be less than 10. As we can see in Table~\ref{tab:multicollinearity-vif}, the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
 
-[TD-Boxplot]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TD-Boxplot.png "TD Bloxplot"
