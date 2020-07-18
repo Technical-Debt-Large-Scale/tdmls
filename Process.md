@@ -19,10 +19,9 @@ TD was created for identifying outliers. After the discussion, only one unusual 
 
 These data of each variable were inputted into Pandas (https://pandas.pydata.org) dataframe, statistics method was applied using Scipy (https://www.scipy.org) and Scikit-learn Linear Regression Model as the template formula, thus the regression model for this analysis is given as below:
 
-y = 0 + X1 + X2 + X3 + X4
+y = B0 + B1X1 + B2X2 + B3X3 + B4X4
 
 The independent variables were divided into four groups: 
-
     * group1: leadtime
     * group2: task complexity
     * group3: total developers
@@ -34,7 +33,7 @@ The independent variable in the first group was inserted in the regression model
 
 ### C. Testing linearity
 
-The partial regression plots are used to check the linear relationship between dependent variable and each independent variable \cite{fox2015applied}. Visually, from these regression plots in Figure \ref{fig:RegressionPartialPlotsOfIndependentVariablesAgainstTechnicalDebt}, leadtime, task complexity, total developers and taskscaling shows a significant linear relationship with TD.
+The partial regression plots are used to check the linear relationship between dependent variable and each independent variable (Fox 2015). Visually, from these regression plots in ![alt text][Regression], leadtime, task complexity, total developers and taskscaling shows a significant linear relationship with TD.
 
 ### D. Testing independence
 
@@ -50,5 +49,8 @@ The normal distribution of residuals is tested by visually checking the normal P
 We used Tolerance/VIF values to check multicollinearity \cite{alin2010multicollinearity}. The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. As you can see in Table~\ref{tab:multicollinearity-tolerance}. In addition, the VIF should be less than 10. As we can see in Table~\ref{tab:multicollinearity-vif}, the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
 
 [TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TD-Boxplot.png "TD Bloxplot"
+[Regression]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/Regression.png "Regression partial plots of independent variables against TD"
 
 Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high leverage points, and outliers in linear regression. Statistical Science. 1986;:379–393.
+
+Fox John. Applied regression analysis and generalized linear models. Sage Publications; 2015.
