@@ -1,164 +1,164 @@
 taskID;employeeID;employeeName;team;role;experienceYears
-TURK-372I;23477969;Employee-Indian#0;EGI 1;Developer;0,03
-TURK-372I;23481147;Employee-Indian#1;EGI 2;Developer;0,03
-TURK-372I;23427308;Employee-Indian#2;EGI 2;Developer;0,03
-TURK-372I;23453687;Employee-Indian#3;EGI 1;Developer;0,03
-TURK-372I;23460099;Employee-Indian#4;EGI 1;Developer;0,03
-TURK-372I;23459812;Employee-Indian#5;EGI 2;Developer;0,03
-TURK-372I;23453382;Employee-Indian#6;EGI 1;Design lead;0,03
-TURK-372I;23475641;Employee-Indian#7;EGI 2;Developer;0,03
-TURK-372I;1;Employee-Indian#8;;;0,03
-BHA-328I;23042827;Employee-Indian#9;EGI 3;Developer;0,13
-BHA-328I;23483074;Employee-Indian#10;EGI 3;Developer;0,14
-BHA-328I;23477969;Employee-Indian#0;EGI 1;Design lead;0,58
-BHA-328I;23518472;Employee-Indian#11;EGI 3;Developer;0,14
-BHA-328I;23481147;Employee-Indian#1;EGI 2;Developer;0,58
-BHA-328I;23291454;Employee-Indian#12;EGI 3;Design lead;0,58
-BHA-328I;23427308;Employee-Indian#2;EGI 2;Developer;0,58
-BHA-328I;23453687;Employee-Indian#3;EGI 1;Developer;0,58
-BHA-328I;23493501;Employee-Indian#13;EGI 3;Developer;0,11
-BHA-328I;23499575;Employee-Indian#14;EGI 2;Developer;0,14
-BHA-328I;23513907;Employee-Indian#15;EGI 1;Developer;0,13
-BHA-328I;23477882;Employee-Indian#16;EGI 5;Design lead;0,58
-BHA-328I;23526375;Employee-Indian#17;EGI 8;Developer;0,02
-BHA-328I;23460099;Employee-Indian#4;EGI 1;Developer;0,58
-BHA-328I;23459812;Employee-Indian#5;EGI 2;Design lead;0,58
-BHA-328I;23513019;Employee-Indian#18;EGI 3;Developer;0,58
-BHA-328I;23453382;Employee-Indian#6;EGI 1;Design lead;0,58
-BHA-328I;23529708;Employee-Indian#19;EGI 9;Developer;0,22
-BHA-328I;23165923;Employee-Indian#20;EGI 2;Developer;0,58
-BHA-328I;23475641;Employee-Indian#7;EGI 2;Developer;0,58
-TELSTRA-038;23481147;Employee-Indian#1;EGI 2;Developer;0,54
-TELSTRA-038;23291454;Employee-Indian#12;EGI 3;Design lead;0,54
-TELSTRA-038;23427308;Employee-Indian#2;EGI 2;Developer;0,54
-TELSTRA-038;23499575;Employee-Indian#14;EGI 2;Developer;0,10
-TELSTRA-038;23459812;Employee-Indian#5;EGI 2;Developer;0,54
-TELSTRA-038;23165923;Employee-Indian#20;EGI 2;Design lead;0,54
-TELSTRA-038;23475641;Employee-Indian#7;EGI 2;Developer;0,54
-TELSTRA-038;1;Employee-Indian#8;;;0,54
-TURK-362;23493501;Employee-Indian#13;EGI 8;Developer;0,24
-TURK-362;23513019;Employee-Indian#18;EGI 3;Developer;0,25
-IDEA-173;23518472;Employee-Indian#11;EGI 3;Developer;0,28
-IDEA-173;23481147;Employee-Indian#1;EGI 2;Developer;0,72
-IDEA-173;23291454;Employee-Indian#12;EGI 3;Design Lead;0,72
-IDEA-173;23427308;Employee-Indian#2;EGI 2;Developer;0,72
-IDEA-173;1;Employee-Indian#8;;;0,72
-TELSTRA-039;23477969;Employee-Indian#0;EGI 1;Developer;0,79
-TELSTRA-039;23499575;Employee-Indian#14;EGI 2;Developer;0,35
-TELSTRA-039;23460099;Employee-Indian#4;EGI 1;Developer;0,79
-TELSTRA-039;23459812;Employee-Indian#5;EGI 2;Developer;0,79
-TELSTRA-039;23453382;Employee-Indian#6;EGI 1;Design lead;0,79
-TELSTRA-039;23165923;Employee-Indian#20;EGI 2;Design lead;0,79
-VOICE-447I;23477969;Employee-Indian#0;EGI 1;Design Lead;0,91
-VOICE-447I;23453687;Employee-Indian#3;EGI 1;Developer;0,91
-VOICE-447I;23513907;Employee-Indian#15;EGI 1;Developer;0,47
-VOICE-447I;23477882;Employee-Indian#16;EGI 1;Developer;0,00
-VOICE-447I;23460099;Employee-Indian#4;EGI 1;Developer;0,91
-VOICE-447I;23513019;Employee-Indian#18;EGI 2;Developer;0,91
-VOICE-447I;23529708;Employee-Indian#19;EGI 1;Developer;0,55
-WIND-206;23483074;Employee-Indian#10;EGI 8;Developer;0,45
-WIND-206;23518472;Employee-Indian#11;EGI 3;Developer;0,45
-WIND-206;23481147;Employee-Indian#1;EGI 3;Developer;0,89
-WIND-206;23291454;Employee-Indian#12;EGI 3;Design lead;0,89
-WIND-206;23427308;Employee-Indian#2;EGI 3;Developer;0,89
-WIND-206;23526375;Employee-Indian#17;EGI 3;Developer;0,29
-WIND-206;23453382;Employee-Indian#6;EGI 2;Developer;0,89
-WIND-206;23165923;Employee-Indian#20;EGI 2;Developer;0,89
-WIND-206;23475641;Employee-Indian#7;EGI 3;Developer;0,89
-VOICE-454I;23300344;Employee-Indian#21;EGI 9;Developer;0,14
-VOICE-454I;23543935;Employee-Indian#22;EGI 9;Developer;0,00
-VOICE-454I;23526693;Employee-Indian#23;EGI 9;Developer;0,31
-VOICE-454I;23529721;Employee-Indian#24;EGI 8;Developer;0,06
-VOICE-454I;23470751;Employee-Indian#25;EGI 9;Developer;0,00
-VOICE-454I;23527006;Employee-Indian#26;EGI 9;Design lead;0,23
-VOICE-454I;23439440;Employee-Indian#27;EGI 9;Developer;0,23
-VOICE-454I;23510885;Employee-Indian#28;EGI 8;Design lead;0,47
-TURK-394;23291454;Employee-Indian#12;EGI 3;Design Lead;1,14
-TURK-394;23526375;Employee-Indian#17;EGI 3;Developer;0,54
-CHTT-036;23042827;Employee-Indian#9;EGI 2;Developer;0,63
-CHTT-036;23481147;Employee-Indian#1;EGI 3;Developer;1,07
-CHTT-036;23499575;Employee-Indian#14;EGI 2;Developer;0,63
-CHTT-036;23459812;Employee-Indian#5;EGI 6;Design Lead;1,07
-CHTT-036;23513019;Employee-Indian#18;EGI 2;Developer;0,62
-CHTT-036;23453382;Employee-Indian#6;EGI 2;Design Lead;1,07
-CHTT-036;23165923;Employee-Indian#20;EGI 2;Developer;1,07
-CHTT-036;23475641;Employee-Indian#7;EGI 3;Developer;1,07
-VOICE-438;23483074;Employee-Indian#10;EGI 8;Developer;0,63
-VOICE-438;23543935;Employee-Indian#22;EGI 9;Developer;0,00
-VOICE-438;23530607;Employee-Indian#29;EGI 8;Developer;0,30
-VOICE-438;23493501;Employee-Indian#13;EGI 8;Developer;0,61
-VOICE-438;23529721;Employee-Indian#24;EGI 8;Developer;0,23
-VOICE-438;23526685;Employee-Indian#30;EGI 8;Developer;0,22
-VOICE-438;23532617;Employee-Indian#31;EGI 8;Developer;0,30
-VOICE-438;23470751;Employee-Indian#25;EGI 9;Developer;0,13
-VOICE-438;23527006;Employee-Indian#26;EGI 9;Design lead;0,38
-VOICE-438;23510885;Employee-Indian#28;EGI 8;Design lead;0,63
-IND-176;23518472;Employee-Indian#11;EGI 3;Developer;0,79
-IND-176;23481147;Employee-Indian#1;EGI 3;Developer;1,23
-IND-176;23291454;Employee-Indian#12;EGI 3;Design Lead;1,23
-IND-176;23427308;Employee-Indian#2;EGI 3;Developer;1,23
-IND-176;23526375;Employee-Indian#17;EGI 3;Developer;0,63
-IND-176;23475641;Employee-Indian#7;EGI 3;Developer;1,23
-VOICE-516;23300344;Employee-Indian#21;EGI 9;Developer;0,62
-VOICE-516;23543935;Employee-Indian#22;EGI 9;Developer;0,78
-VOICE-516;23526693;Employee-Indian#23;EGI 9;Developer;0,78
-VOICE-516;23470751;Employee-Indian#25;EGI 9;Developer;0,45
-VOICE-516;23527006;Employee-Indian#26;EGI 9;Design lead;0,70
-CIN-296;23518472;Employee-Indian#11;EGI 11;Developer;1,03
-CIN-296;23481147;Employee-Indian#1;EGI 3;Developer;1,47
-CIN-296;23291454;Employee-Indian#12;EGI 3;Design lead;1,47
-CIN-296;23427308;Employee-Indian#2;EGI 3;Developer;1,47
-CIN-296;23526375;Employee-Indian#17;EGI 3;Developer;0,87
-CIN-296;23475641;Employee-Indian#7;EGI 3;Developer;1,47
-VOICE-526;23477969;Employee-Indian#0;EGI 1;Design lead;1,50
-VOICE-526;23453687;Employee-Indian#3;EGI 6;Developer;1,50
-VOICE-526;23529721;Employee-Indian#24;EGI 1;Developer;0,60
-VOICE-526;23513907;Employee-Indian#15;EGI 1;Developer;1,04
-VOICE-526;23477882;Employee-Indian#16;EGI 4;Developer;1,13
-VOICE-526;23529708;Employee-Indian#19;EGI 1;Developer;1,13
-ZAINK-057;23483074;Employee-Indian#10;EGI 11;Developer;1,13
-ZAINK-057;23510579;Employee-Indian#32;EGI 11;Developer;0,17
-ZAINK-057;23526704;Employee-Indian#33;EGI 11;Desing lead;0,90
-VOICE-555I;23477969;Employee-Indian#0;EGI 1;Design lead;1,59
-CIN-300;23204377;Employee-Indian#34;EGI 3;Developer;1,13
-CIN-300;23483074;Employee-Indian#10;EGI 11;Developer;1,08
-CIN-300;23481147;Employee-Indian#1;EGI 3;Developer;1,64
-CIN-300;23291454;Employee-Indian#12;EGI 3;Design lead;1,64
-CIN-300;23427308;Employee-Indian#2;EGI 3;Developer;1,64
-CIN-300;23526375;Employee-Indian#17;EGI 3;Developer;1,04
-CIN-300;n1;Employee-Indian#35;;;0,00
-CIN-300;n2;Employee-Indian#35;;;
-CIN-301;23483074;Employee-Indian#10;EGI 11;Developer;1,24
-CIN-301;23518472;Employee-Indian#11;EGI 11;Developer;1,24
-CIN-301;23504492;Employee-Indian#36;EGI 11;Developer;0,08
-CIN-301;23510579;Employee-Indian#32;EGI 11;Developer;0,44
-CIN-301;23526704;Employee-Indian#33;EGI 11;Design lead;0,99
-CIN-301;n3;Employee-Indian#35;;;0,02
-CIN-301;n4;Employee-Indian#35;;;
-ZAINK-066I;23416488;Employee-Indian#37;EGI 8;Developer;0,00
-ZAINK-066I;23522258;Employee-Indian#38;EGI 8;Developer;0,01
-ZAINK-066I;23532617;Employee-Indian#31;EGI 8;Developer;0,81
-ZAINK-066I;23510885;Employee-Indian#28;EGI 8;Design lead;1,14
-VOICE-562I;23477969;Employee-Indian#0;EGI 1;Design lead;1,66
-VOICE-562I;23529721;Employee-Indian#24;EGI 1;Developer;0,81
-VOICE-562I;23513907;Employee-Indian#15;EGI 1;Developer;1,22
-VOICE-562I;23483060;Employee-Indian#39;EGI 1;Developer;0,28
-VOICE-562I;23529708;Employee-Indian#19;EGI 1;Developer;1,30
-FTML-066;23042827;Employee-Indian#9;EGI 2;Developer;1,27
-FTML-066;23513019;Employee-Indian#18;EGI 2;Developer;1,27
-FTML-066;23453382;Employee-Indian#6;EGI 2;Design lead;1,71
-FTML-066;n5;Employee-Indian#35;;;0,05
-FTML-066;n6;Employee-Indian#35;;;
-ZAINK-069;23042827;Employee-Indian#9;EGI 2;Developer;1,35
-ZAINK-069;23513019;Employee-Indian#18;EGI 2;Developer;1,35
-ZAINK-069;23453382;Employee-Indian#6;EGI 2;Design lead;1,79
-ZAINK-069;23165923;Employee-Indian#20;EGI 2;Developer;1,79
-ZAINK-069;n7;Employee-Indian#35;;;0,26
-ZAINK-069;n8;Employee-Indian#35;;;
-ZAINK-069;n9;Employee-Indian#35;;;
-VOICE-563;23477969;Employee-Indian#0;EGI 1;Design lead;1,79
-VOICE-563;23416488;Employee-Indian#37;EGI 8;Developer;0,14
-VOICE-563;23522258;Employee-Indian#38;EGI 8;Developer;0,95
-VOICE-563;23532617;Employee-Indian#31;EGI 8;Developer;1,02
-VOICE-563;23510885;Employee-Indian#28;EGI 8;Design lead;0,95
-VOICE-563;23582918;Employee-Indian#40;EGI 8;Developer;0,00
+t1;23477969;Employee-Indian#0;EGI 1;Developer;0,03
+t1;23481147;Employee-Indian#1;EGI 2;Developer;0,03
+t1;23427308;Employee-Indian#2;EGI 2;Developer;0,03
+t1;23453687;Employee-Indian#3;EGI 1;Developer;0,03
+t1;23460099;Employee-Indian#4;EGI 1;Developer;0,03
+t1;23459812;Employee-Indian#5;EGI 2;Developer;0,03
+t1;23453382;Employee-Indian#6;EGI 1;Design lead;0,03
+t1;23475641;Employee-Indian#7;EGI 2;Developer;0,03
+t1;1;Employee-Indian#8;;;0,03
+b1;23042827;Employee-Indian#9;EGI 3;Developer;0,13
+b1;23483074;Employee-Indian#10;EGI 3;Developer;0,14
+b1;23477969;Employee-Indian#0;EGI 1;Design lead;0,58
+b1;23518472;Employee-Indian#11;EGI 3;Developer;0,14
+b1;23481147;Employee-Indian#1;EGI 2;Developer;0,58
+b1;23291454;Employee-Indian#12;EGI 3;Design lead;0,58
+b1;23427308;Employee-Indian#2;EGI 2;Developer;0,58
+b1;23453687;Employee-Indian#3;EGI 1;Developer;0,58
+b1;23493501;Employee-Indian#13;EGI 3;Developer;0,11
+b1;23499575;Employee-Indian#14;EGI 2;Developer;0,14
+b1;23513907;Employee-Indian#15;EGI 1;Developer;0,13
+b1;23477882;Employee-Indian#16;EGI 5;Design lead;0,58
+b1;23526375;Employee-Indian#17;EGI 8;Developer;0,02
+b1;23460099;Employee-Indian#4;EGI 1;Developer;0,58
+b1;23459812;Employee-Indian#5;EGI 2;Design lead;0,58
+b1;23513019;Employee-Indian#18;EGI 3;Developer;0,58
+b1;23453382;Employee-Indian#6;EGI 1;Design lead;0,58
+b1;23529708;Employee-Indian#19;EGI 9;Developer;0,22
+b1;23165923;Employee-Indian#20;EGI 2;Developer;0,58
+b1;23475641;Employee-Indian#7;EGI 2;Developer;0,58
+tl1;23481147;Employee-Indian#1;EGI 2;Developer;0,54
+tl1;23291454;Employee-Indian#12;EGI 3;Design lead;0,54
+tl1;23427308;Employee-Indian#2;EGI 2;Developer;0,54
+tl1;23499575;Employee-Indian#14;EGI 2;Developer;0,10
+tl1;23459812;Employee-Indian#5;EGI 2;Developer;0,54
+tl1;23165923;Employee-Indian#20;EGI 2;Design lead;0,54
+tl1;23475641;Employee-Indian#7;EGI 2;Developer;0,54
+tl1;1;Employee-Indian#8;;;0,54
+tk1;23493501;Employee-Indian#13;EGI 8;Developer;0,24
+tk1;23513019;Employee-Indian#18;EGI 3;Developer;0,25
+i1;23518472;Employee-Indian#11;EGI 3;Developer;0,28
+i1;23481147;Employee-Indian#1;EGI 2;Developer;0,72
+i1;23291454;Employee-Indian#12;EGI 3;Design Lead;0,72
+i1;23427308;Employee-Indian#2;EGI 2;Developer;0,72
+i1;1;Employee-Indian#8;;;0,72
+tl2;23477969;Employee-Indian#0;EGI 1;Developer;0,79
+tl2;23499575;Employee-Indian#14;EGI 2;Developer;0,35
+tl2;23460099;Employee-Indian#4;EGI 1;Developer;0,79
+tl2;23459812;Employee-Indian#5;EGI 2;Developer;0,79
+tl2;23453382;Employee-Indian#6;EGI 1;Design lead;0,79
+tl2;23165923;Employee-Indian#20;EGI 2;Design lead;0,79
+vc1;23477969;Employee-Indian#0;EGI 1;Design Lead;0,91
+vc1;23453687;Employee-Indian#3;EGI 1;Developer;0,91
+vc1;23513907;Employee-Indian#15;EGI 1;Developer;0,47
+vc1;23477882;Employee-Indian#16;EGI 1;Developer;0,00
+vc1;23460099;Employee-Indian#4;EGI 1;Developer;0,91
+vc1;23513019;Employee-Indian#18;EGI 2;Developer;0,91
+vc1;23529708;Employee-Indian#19;EGI 1;Developer;0,55
+w1;23483074;Employee-Indian#10;EGI 8;Developer;0,45
+w1;23518472;Employee-Indian#11;EGI 3;Developer;0,45
+w1;23481147;Employee-Indian#1;EGI 3;Developer;0,89
+w1;23291454;Employee-Indian#12;EGI 3;Design lead;0,89
+w1;23427308;Employee-Indian#2;EGI 3;Developer;0,89
+w1;23526375;Employee-Indian#17;EGI 3;Developer;0,29
+w1;23453382;Employee-Indian#6;EGI 2;Developer;0,89
+w1;23165923;Employee-Indian#20;EGI 2;Developer;0,89
+w1;23475641;Employee-Indian#7;EGI 3;Developer;0,89
+vc2;23300344;Employee-Indian#21;EGI 9;Developer;0,14
+vc2;23543935;Employee-Indian#22;EGI 9;Developer;0,00
+vc2;23526693;Employee-Indian#23;EGI 9;Developer;0,31
+vc2;23529721;Employee-Indian#24;EGI 8;Developer;0,06
+vc2;23470751;Employee-Indian#25;EGI 9;Developer;0,00
+vc2;23527006;Employee-Indian#26;EGI 9;Design lead;0,23
+vc2;23439440;Employee-Indian#27;EGI 9;Developer;0,23
+vc2;23510885;Employee-Indian#28;EGI 8;Design lead;0,47
+tk2;23291454;Employee-Indian#12;EGI 3;Design Lead;1,14
+tk2;23526375;Employee-Indian#17;EGI 3;Developer;0,54
+c1;23042827;Employee-Indian#9;EGI 2;Developer;0,63
+c1;23481147;Employee-Indian#1;EGI 3;Developer;1,07
+c1;23499575;Employee-Indian#14;EGI 2;Developer;0,63
+c1;23459812;Employee-Indian#5;EGI 6;Design Lead;1,07
+c1;23513019;Employee-Indian#18;EGI 2;Developer;0,62
+c1;23453382;Employee-Indian#6;EGI 2;Design Lead;1,07
+c1;23165923;Employee-Indian#20;EGI 2;Developer;1,07
+c1;23475641;Employee-Indian#7;EGI 3;Developer;1,07
+vc3;23483074;Employee-Indian#10;EGI 8;Developer;0,63
+vc3;23543935;Employee-Indian#22;EGI 9;Developer;0,00
+vc3;23530607;Employee-Indian#29;EGI 8;Developer;0,30
+vc3;23493501;Employee-Indian#13;EGI 8;Developer;0,61
+vc3;23529721;Employee-Indian#24;EGI 8;Developer;0,23
+vc3;23526685;Employee-Indian#30;EGI 8;Developer;0,22
+vc3;23532617;Employee-Indian#31;EGI 8;Developer;0,30
+vc3;23470751;Employee-Indian#25;EGI 9;Developer;0,13
+vc3;23527006;Employee-Indian#26;EGI 9;Design lead;0,38
+vc3;23510885;Employee-Indian#28;EGI 8;Design lead;0,63
+id1;23518472;Employee-Indian#11;EGI 3;Developer;0,79
+id1;23481147;Employee-Indian#1;EGI 3;Developer;1,23
+id1;23291454;Employee-Indian#12;EGI 3;Design Lead;1,23
+id1;23427308;Employee-Indian#2;EGI 3;Developer;1,23
+id1;23526375;Employee-Indian#17;EGI 3;Developer;0,63
+id1;23475641;Employee-Indian#7;EGI 3;Developer;1,23
+vc4;23300344;Employee-Indian#21;EGI 9;Developer;0,62
+vc4;23543935;Employee-Indian#22;EGI 9;Developer;0,78
+vc4;23526693;Employee-Indian#23;EGI 9;Developer;0,78
+vc4;23470751;Employee-Indian#25;EGI 9;Developer;0,45
+vc4;23527006;Employee-Indian#26;EGI 9;Design lead;0,70
+ci1;23518472;Employee-Indian#11;EGI 11;Developer;1,03
+ci1;23481147;Employee-Indian#1;EGI 3;Developer;1,47
+ci1;23291454;Employee-Indian#12;EGI 3;Design lead;1,47
+ci1;23427308;Employee-Indian#2;EGI 3;Developer;1,47
+ci1;23526375;Employee-Indian#17;EGI 3;Developer;0,87
+ci1;23475641;Employee-Indian#7;EGI 3;Developer;1,47
+vc5;23477969;Employee-Indian#0;EGI 1;Design lead;1,50
+vc5;23453687;Employee-Indian#3;EGI 6;Developer;1,50
+vc5;23529721;Employee-Indian#24;EGI 1;Developer;0,60
+vc5;23513907;Employee-Indian#15;EGI 1;Developer;1,04
+vc5;23477882;Employee-Indian#16;EGI 4;Developer;1,13
+vc5;23529708;Employee-Indian#19;EGI 1;Developer;1,13
+z1;23483074;Employee-Indian#10;EGI 11;Developer;1,13
+z1;23510579;Employee-Indian#32;EGI 11;Developer;0,17
+z1;23526704;Employee-Indian#33;EGI 11;Desing lead;0,90
+vc6;23477969;Employee-Indian#0;EGI 1;Design lead;1,59
+ci2;23204377;Employee-Indian#34;EGI 3;Developer;1,13
+ci2;23483074;Employee-Indian#10;EGI 11;Developer;1,08
+ci2;23481147;Employee-Indian#1;EGI 3;Developer;1,64
+ci2;23291454;Employee-Indian#12;EGI 3;Design lead;1,64
+ci2;23427308;Employee-Indian#2;EGI 3;Developer;1,64
+ci2;23526375;Employee-Indian#17;EGI 3;Developer;1,04
+ci2;n1;Employee-Indian#35;;;0,00
+ci2;n2;Employee-Indian#35;;;
+ci3;23483074;Employee-Indian#10;EGI 11;Developer;1,24
+ci3;23518472;Employee-Indian#11;EGI 11;Developer;1,24
+ci3;23504492;Employee-Indian#36;EGI 11;Developer;0,08
+ci3;23510579;Employee-Indian#32;EGI 11;Developer;0,44
+ci3;23526704;Employee-Indian#33;EGI 11;Design lead;0,99
+ci3;n3;Employee-Indian#35;;;0,02
+ci3;n4;Employee-Indian#35;;;
+z2;23416488;Employee-Indian#37;EGI 8;Developer;0,00
+z2;23522258;Employee-Indian#38;EGI 8;Developer;0,01
+z2;23532617;Employee-Indian#31;EGI 8;Developer;0,81
+z2;23510885;Employee-Indian#28;EGI 8;Design lead;1,14
+vc7;23477969;Employee-Indian#0;EGI 1;Design lead;1,66
+vc7;23529721;Employee-Indian#24;EGI 1;Developer;0,81
+vc7;23513907;Employee-Indian#15;EGI 1;Developer;1,22
+vc7;23483060;Employee-Indian#39;EGI 1;Developer;0,28
+vc7;23529708;Employee-Indian#19;EGI 1;Developer;1,30
+f1;23042827;Employee-Indian#9;EGI 2;Developer;1,27
+f1;23513019;Employee-Indian#18;EGI 2;Developer;1,27
+f1;23453382;Employee-Indian#6;EGI 2;Design lead;1,71
+f1;n5;Employee-Indian#35;;;0,05
+f1;n6;Employee-Indian#35;;;
+z3;23042827;Employee-Indian#9;EGI 2;Developer;1,35
+z3;23513019;Employee-Indian#18;EGI 2;Developer;1,35
+z3;23453382;Employee-Indian#6;EGI 2;Design lead;1,79
+z3;23165923;Employee-Indian#20;EGI 2;Developer;1,79
+z3;n7;Employee-Indian#35;;;0,26
+z3;n8;Employee-Indian#35;;;
+z3;n9;Employee-Indian#35;;;
+vc8;23477969;Employee-Indian#0;EGI 1;Design lead;1,79
+vc8;23416488;Employee-Indian#37;EGI 8;Developer;0,14
+vc8;23522258;Employee-Indian#38;EGI 8;Developer;0,95
+vc8;23532617;Employee-Indian#31;EGI 8;Developer;1,02
+vc8;23510885;Employee-Indian#28;EGI 8;Design lead;0,95
+vc8;23582918;Employee-Indian#40;EGI 8;Developer;0,00
