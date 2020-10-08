@@ -31,11 +31,12 @@ Original file is located at
 import pandas as pd
 
 ## Remoto
-df_all_metrics = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/Metrics-Tabela1.csv?token=AACQGEHE4R34YNSSCEKSYSC7P5XKC', sep=";")
-df_indian_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/indian_team.csv?token=AACQGEBRGJGLCTDJIV2ABS27P5XKM', sep=";")
-df_sweden_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/sweden_team.csv?token=AACQGEBC3QVMSTPT4NSKZYS7P5X2G', sep=";")
-df_italy_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/italy_team.csv?token=AACQGEFHQIJMJ773VPF63VK7P5XKW', sep=";")
-df_usa_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/usa_team.csv?token=AACQGEGFTUNHKRMEFEERETK7P5XLI', sep=";")
+df_all_metrics = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/Metrics-Tabela1.csv', sep=";")
+df_indian_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/indian_team.csv', sep=";")
+df_sweden_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/sweden_team.csv', sep=";")
+df_italy_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/italy_team.csv', sep=";")
+df_usa_team = pd.read_csv('https://raw.githubusercontent.com/Technical-Debt-Large-Scale/tdmls/master/dataset/usa_team.csv', sep=";")
+
 ### Local
 """
 df_all_metrics = pd.read_csv('/Users/armandosoaressousa/git/tdmls/tdmls/dataset/Metrics-Tabela1.csv', sep=";")
