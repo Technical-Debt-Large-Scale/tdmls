@@ -1,9 +1,0 @@
-Times imaturos
-BHA-300 
-WATA-070
-
-Os demais são maduros
-
-Será adotado 0 para imaturo e 1 para maduros
-
-
