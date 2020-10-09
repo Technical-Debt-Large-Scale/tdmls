@@ -1,3 +1,0 @@
-Ref
-
-https://machinelearningmastery.com/nonparametric-statistical-significance-tests-in-python/
