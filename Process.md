@@ -43,8 +43,19 @@ It is assumed that observations between and within groups are independent. Indep
 
 The normal distribution of residuals is tested by visually checking the normal P-P plot (Ho 2013). In ![alt text][PPplot], the points on the plot remain close to the diagonal line, which means residuals are normally distributed. So, we do not violate the assumption of normality.
 
+### F. Breusch-Pagan Test
 
-### F. Testing multicollinearity
+You can see the following results for performing Breusch-Pagan Test in this case study: 
+
+[('Lagrange multiplier statistic', 2.3261542987377517), ('p-value', 0.6760114026390507), ('f-value', 0.5291373984536129), ('f p-value', 0.7152904901671338)]
+
+A Breusch-Pagan test uses the following null and alternative hypotheses:
+
+The null hypothesis (H0): Homoscedasticity is present. 
+
+The alternative hypothesis: (Ha): Homoscedasticity is not present (i.e. heteroscedasticity exists) In this dataset, the Lagrange multiplier statistic for the test is 2.326 and the corresponding p-value is 0.676. Because this p-value is not less than 0.05, we fail to reject the null hypothesis.
+
+### G. Testing multicollinearity
 
 We used Tolerance/VIF values to check multicollinearity (Alin 2010). The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. As you can see in Table~\ref{tab:multicollinearity-tolerance}. In addition, the VIF should be less than 10. As we can see in Table~\ref{tab:multicollinearity-vif}, the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
 
