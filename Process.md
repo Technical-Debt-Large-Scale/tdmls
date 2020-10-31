@@ -75,6 +75,13 @@ We used VIF,Tolerance values to check multicollinearity (Alin 2010). The toleran
 
 Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high leverage points, and outliers in linear regression. Statistical Science. 1986;:379–393.
 
+### H. Final regression model
+
+Finally, the following regression model was presented as TD (y) and the following features LT (x1), TC (x2), DV (x3) and TS (x4). Thus, it was created the following formula  to represent the Multiple Regression Model:
+
+y = 894.67 + 1.94x1 + 5.48x2 + 53.98x3 − 3298.65x4
+
+
 Fox John. Applied regression analysis and generalized linear models. Sage Publications; 2015.
 
 Ho Robert. Handbook of univariate and multivariate data analysis with IBM SPSS. Chapman and Hall/CRC; 2013.
