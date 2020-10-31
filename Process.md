@@ -37,7 +37,14 @@ The partial regression plots are used to check the linear relationship between d
 
 ### D. Testing independence
 
-It is assumed that observations between and within groups are independent. Independence of residuals was checked by analyzing Durbin-Watson statistics. If the value of Durbin-Watson test is between 1.5 and 2.5, there is no linear autocorrelation in the data (Ho 2013). The Durbin-Watson values in our tests are detailed in   Table \ref{tab:durbin-watson}, which is acceptable. So, there is independence of residuals in our data.
+It is assumed that observations between and within groups are independent. Independence of residuals was checked by analyzing Durbin-Watson statistics. If the value of Durbin-Watson test is between 1.5 and 2.5, there is no linear autocorrelation in the data (Ho 2013). The Durbin-Watson values in our tests are detailed in table below, which is acceptable. So, there is independence of residuals in our data.
+
+| 	Feature 		   | value  | 
+|-----------------|--------|
+| leadTime			|	1.614	|
+| complexityPoints| 	2.155	|
+| totalDevelopers	| 	1.230	|
+| taskScaling		| 	1.727	|
 
 ### E. Testing normality
 
