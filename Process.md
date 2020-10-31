@@ -89,6 +89,6 @@ Ho Robert. Handbook of univariate and multivariate data analysis with IBM SPSS. 
 Alin Aylin. Multicollinearity. Wiley Interdisciplinary Reviews: Computational Statistics. 2010;2(3):370–374.
 
 
-[TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TD-Boxplot.png "TD Bloxplot"
+[TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TDM-Boxplot.png "TD Bloxplot"
 [Regression]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/Regression.png "Regression partial plots of independent variables against TD"
 [PPplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/PPplot.png
