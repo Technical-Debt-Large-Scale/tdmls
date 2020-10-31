@@ -57,7 +57,14 @@ The alternative hypothesis: (Ha): Homoscedasticity is not present (i.e. heterosc
 
 ### G. Testing multicollinearity
 
-We used Tolerance/VIF values to check multicollinearity (Alin 2010). The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. As you can see in Table~\ref{tab:multicollinearity-tolerance}. In addition, the VIF should be less than 10. As we can see in Table~\ref{tab:multicollinearity-vif}, the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
+We used VIF,Tolerance values to check multicollinearity (Alin 2010). The tolerance of independent variables should be greater than 0.1 for there to be no multicollinearity. In addition, the VIF should be less than 10. As you can see in Table below (VIF,Tolerance), the tolerance values in our study are all greater than 0.1 and the VIF values all less than 10. Therefore, there was no multicollinearity issue in this analysis.
+
+| Model 	   | Lead Time 		| Task Complexity 	| Total Devs 	   | Task Scaling    |
+|-----------|-----------------|--------------------|-----------------|-----------------|
+| model1 	|    (1,1) 			| -              	   | -               | -               |
+| model2 	|    (1.12, 0.89) | (1.12, 0.89) 		|  -              | -               |
+| model3 	|    (1.60, 0.62) | (1.14, 0.88) 		| (1.57, 0.64) 	| -               |
+| model4 	|    (1.76, 0.57) | (1.50, 0.67) 		| (1.82, 0.55) 	| (1.51, 0.66)    |
 
 Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high leverage points, and outliers in linear regression. Statistical Science. 1986;:379–393.
 
