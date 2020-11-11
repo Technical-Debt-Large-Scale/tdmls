@@ -79,7 +79,7 @@ Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high
 
 Finally, the following regression model was presented as TD (y) and the following features LT (x1), TC (x2), DV (x3) and TS (x4). Thus, it was created the following formula  to represent the Multiple Regression Model:
 
-y = 894.67 + 1.94x1 + 5.48x2 + 53.98x3 − 3298.65x4
+y = 1048.31 + 311.52x1 + 3234.82x2 + 1241.58x3 - 1495.39x4
 
 
 Fox John. Applied regression analysis and generalized linear models. Sage Publications; 2015.
