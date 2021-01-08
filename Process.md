@@ -81,6 +81,7 @@ Finally, the following regression model was presented as TD (y) and the followin
 
 y = 1048.31 + 311.52x1 + 3234.82x2 + 1241.58x3 - 1495.39x4
 
+[All steps to reproduce the process about hierarquical regression analysis](https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/Regression_analysis.ipynb) 
 
 Fox John. Applied regression analysis and generalized linear models. Sage Publications; 2015.
 
