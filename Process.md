@@ -11,7 +11,9 @@ We performed a linear regression in Scikit-Learn (https://scikit-learn.org). Lin
 
 There are three kinds of unusual points: outliers, high leverage points and highly influential points (chatterjee 1986). 
 
-Dependent variable box plotting ![alt text][TD-Boxplot]
+TD Box plot from all TD points ![alt text][TD-Boxplotall]
+
+Dependent variable box plotting by Location ![alt text][TD-Boxplot]
 
 TD was created for identifying outliers. After the discussion, only one unusual point was removed from the dataset for a point on a website that did not add an analysis of the metric table data.
 
@@ -93,3 +95,4 @@ Alin Aylin. Multicollinearity. Wiley Interdisciplinary Reviews: Computational St
 [TD-Boxplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TDM-Boxplot.png "TD Bloxplot"
 [Regression]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/Regression.png "Regression partial plots of independent variables against TD"
 [PPplot]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/PPplot.png
+[TD-Boxplotall]: https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/pictures/TD-Boxplot.png
