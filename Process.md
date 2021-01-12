@@ -75,8 +75,6 @@ We used VIF,Tolerance values to check multicollinearity (Alin 2010). The toleran
 | model3 	|    (1.60, 0.62) | (1.14, 0.88) 		| (1.57, 0.64) 	| -               |
 | model4 	|    (1.76, 0.57) | (1.50, 0.67) 		| (1.82, 0.55) 	| (1.51, 0.66)    |
 
-Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high leverage points, and outliers in linear regression. Statistical Science. 1986;:379–393.
-
 ### H. Final regression model
 
 Finally, the following regression model was presented as TD (y) and the following features LT (x1), TC (x2), DV (x3) and TS (x4). Thus, it was created the following formula  to represent the Multiple Regression Model:
@@ -84,6 +82,8 @@ Finally, the following regression model was presented as TD (y) and the followin
 y = 1048.31 + 311.52x1 + 3234.82x2 + 1241.58x3 - 1495.39x4
 
 [All steps to reproduce the process of hierarchical regression analysis](https://github.com/Technical-Debt-Large-Scale/tdmls/blob/master/Regression_analysis.ipynb) 
+
+Chatterjee 1986 - Chatterjee Samprit, Hadi Ali S. Influential observations, high leverage points, and outliers in linear regression. Statistical Science. 1986;:379–393.
 
 Fox John. Applied regression analysis and generalized linear models. Sage Publications; 2015.
 
